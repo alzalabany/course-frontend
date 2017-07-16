@@ -1,0 +1,19 @@
+{
+  "name": "dawaya-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js --reporter min",
+    "test-html": "mocha ./*.spec.js --reporter mochawesome; open -a 'Google Chrome'  ./mochawesome-report/mochawesome.html",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "apicache": "^0.8.7"
+  }
+}

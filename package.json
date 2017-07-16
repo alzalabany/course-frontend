@@ -1,0 +1,35 @@
+{
+  "name": "dawaya",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apisauce": "^0.14.0",
+    "express": "^4.15.3",
+    "immutable": "^3.8.1",
+    "material-ui": "^0.18.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-ionicons": "^1.5.7",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^4.0.8",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.7.2",
+    "request-progress": "^3.0.0",
+    "typeface-roboto": "^0.0.31"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}
